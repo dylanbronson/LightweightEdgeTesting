@@ -8,9 +8,12 @@ namespace TestProcessManager
         static void Main(string[] args)
         {
             Console.WriteLine("Running file found at ./testFile");
-            ProcessStartInfo startInfo = new ProcessStartInfo() { FileName = "./testFile"};
-            Process proc = new Process() { StartInfo = startInfo, };
-            proc.Start();
+            using var process = Process.Start(new ProcessStartInfo
+            {
+                FileName = "testFile",
+                ArgumentList = { "hello world" }
+            });
+            process.WaitForExit();
         }
     }
 }
