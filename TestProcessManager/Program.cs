@@ -24,7 +24,7 @@ namespace TestProcessManager
                     UseShellExecute = false,
                     CreateNoWindow = true,
                     WindowStyle = ProcessWindowStyle.Hidden,
-                    FileName = "/bin/bash",
+                    FileName = "./testFile",
                     Arguments = $"-c \"{escapedArgs}\""
                 }
             };
