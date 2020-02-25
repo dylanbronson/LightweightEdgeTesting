@@ -7,27 +7,17 @@ namespace TestProcessManager
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Running file found at ./testFile");
+            Console.WriteLine("Running file found at /usr/hackathon/testFile");
+            Exec();
         }
 
-        public static void Exec(string cmd)
+        public static void Exec()
         {
-            var escapedArgs = cmd.Replace("\"", "\\\"");
-
-            var process = new Process
+            using var process = Process.Start(
+            new ProcessStartInfo
             {
-                StartInfo = new ProcessStartInfo
-                {
-                    RedirectStandardOutput = true,
-                    UseShellExecute = false,
-                    CreateNoWindow = true,
-                    WindowStyle = ProcessWindowStyle.Hidden,
-                    FileName = "/usr/hackathon/testFile",
-                    Arguments = $"-c \"{escapedArgs}\""
-                }
-            };
-
-            process.Start();
+                FileName = "/usr/hackathon/testFile",
+            });
             process.WaitForExit();
         }
     }
