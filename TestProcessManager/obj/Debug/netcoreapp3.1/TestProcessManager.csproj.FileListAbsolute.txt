@@ -1,0 +1,11 @@
+C:\Users\Administrator\workplace\hackathon\TestProcessManager\bin\Debug\netcoreapp3.1\TestProcessManager.exe
+C:\Users\Administrator\workplace\hackathon\TestProcessManager\bin\Debug\netcoreapp3.1\TestProcessManager.deps.json
+C:\Users\Administrator\workplace\hackathon\TestProcessManager\bin\Debug\netcoreapp3.1\TestProcessManager.runtimeconfig.json
+C:\Users\Administrator\workplace\hackathon\TestProcessManager\bin\Debug\netcoreapp3.1\TestProcessManager.runtimeconfig.dev.json
+C:\Users\Administrator\workplace\hackathon\TestProcessManager\bin\Debug\netcoreapp3.1\TestProcessManager.dll
+C:\Users\Administrator\workplace\hackathon\TestProcessManager\bin\Debug\netcoreapp3.1\TestProcessManager.pdb
+C:\Users\Administrator\workplace\hackathon\TestProcessManager\obj\Debug\netcoreapp3.1\TestProcessManager.csprojAssemblyReference.cache
+C:\Users\Administrator\workplace\hackathon\TestProcessManager\obj\Debug\netcoreapp3.1\TestProcessManager.AssemblyInfoInputs.cache
+C:\Users\Administrator\workplace\hackathon\TestProcessManager\obj\Debug\netcoreapp3.1\TestProcessManager.AssemblyInfo.cs
+C:\Users\Administrator\workplace\hackathon\TestProcessManager\obj\Debug\netcoreapp3.1\TestProcessManager.dll
+C:\Users\Administrator\workplace\hackathon\TestProcessManager\obj\Debug\netcoreapp3.1\TestProcessManager.pdb
