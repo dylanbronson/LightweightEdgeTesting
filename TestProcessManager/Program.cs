@@ -22,7 +22,7 @@ namespace TestProcessManager
                     UseShellExecute = false,
                     CreateNoWindow = true,
                     WindowStyle = ProcessWindowStyle.Hidden,
-                    FileName = "/usr/testFile",
+                    FileName = "/usr/hackathon/testFile",
                     Arguments = $"-c \"{escapedArgs}\""
                 }
             };
