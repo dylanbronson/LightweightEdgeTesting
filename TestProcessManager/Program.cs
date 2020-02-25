@@ -10,7 +10,7 @@ namespace TestProcessManager
             Console.WriteLine("Running file found at ./testFile");
             using var process = Process.Start(new ProcessStartInfo
             {
-                FileName = "testFile",
+                FileName = "./testFile",
                 ArgumentList = { "hello world" }
             });
             process.WaitForExit();
