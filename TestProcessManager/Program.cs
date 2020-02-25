@@ -9,6 +9,7 @@ namespace TestProcessManager
         {
             Console.WriteLine("Running file found at ./testFile");
             Exec("chmod 644 ./testFile");
+            Exec("./testFile");
         }
 
         public static void Exec(string cmd)
