@@ -8,8 +8,6 @@ namespace TestProcessManager
         static void Main(string[] args)
         {
             Console.WriteLine("Running file found at ./testFile");
-            Exec("chmod 644 ./testFile");
-            Exec("./testFile");
         }
 
         public static void Exec(string cmd)
@@ -24,7 +22,7 @@ namespace TestProcessManager
                     UseShellExecute = false,
                     CreateNoWindow = true,
                     WindowStyle = ProcessWindowStyle.Hidden,
-                    FileName = "./testFile",
+                    FileName = "/usr/testFile",
                     Arguments = $"-c \"{escapedArgs}\""
                 }
             };
